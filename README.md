@@ -1,2 +1,2 @@
-# Analyzing_IoT_Data_in_Python
+# Analyzing IoT Data in Python
 Course solution and notes.
