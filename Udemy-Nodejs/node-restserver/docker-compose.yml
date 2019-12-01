@@ -1,0 +1,18 @@
+version: '3'
+services:
+  reviews:
+    container_name: reviews
+    restart: always
+    build: .
+    ports:
+      - 80:3000
+    depends_on:
+      - mongo-server
+  mongo-server:
+    container_name: mongo-server
+    image: mongo
+    volumes:
+      - ./mongodata:/data/db
+    ports:
+      - 27017:27017
+    restart: always
