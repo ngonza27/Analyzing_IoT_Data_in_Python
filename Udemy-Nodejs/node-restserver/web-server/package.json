@@ -14,7 +14,7 @@
     "express": "^4.17.1",
     "google-auth-library": "^8.8.0",
     "jsonwebtoken": "^9.0.0",
-    "mongoose": "^6.13.5",
+    "mongoose": "^8.9.5",
     "mongoose-unique-validator": "^2.0.0",
     "underscore": "^1.8.3"
   }
